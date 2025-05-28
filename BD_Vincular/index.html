@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FV</title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<div class="container">
+
+<form action="php/procesar.php" method="post">
+<h1 align="center">Formulario</h1>
+<table border="0" align="center">
+	<tr>
+		<td>Nombre Y Apellido:</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="nombre" id="name" required></td>
+	</tr>
+	<tr>
+		<td>Usuario:</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="usuario" id="user" required></td>
+	</tr>
+	<tr>
+		<td>Correo:</td>
+	</tr>
+	<tr>
+		<td><input type="email" name="correo" id="email" required></td>
+	</tr>
+	<tr>
+		<td>Contraseña:</td>
+	</tr>
+	<tr>
+		<td><input type="password" name="contraseña" id="password" required></td>
+	</tr>
+	<tr>
+		<td align="center">
+			<button type="submit" name="insertar" value="INSERTAR">Registrar</button>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<button type="submit" name="mostrar" value="VER">Mostrar</button>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<button type="submit" name="actualizar" value="ACTUALIZAR">Actualizar</button>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<button type="submit" name="eliminar" value="ELIMINAR">Eliminar</button>
+		</td>
+	</tr>
+</table>
+</form>
+
+<table border="0" align="center">
+	<tr>
+		<th>Nombre</th>
+		<th>Usuario</th>
+		<th>Correo</th>
+		<th>Contraseña</th>
+	</tr>
+</table>
+
+</div>
+<h2>TODOS LOS DERECHOS RESERVADOS PARA GERMÁN ANTONIO JIMÉNEZ MONGE - CBTIS206</h2>
+
+</body>
+</html>
